@@ -161,16 +161,6 @@ pytest-agents/
 | LangChain | ✅ | Works via LLM patches |
 | Raw HTTP | ✅ | Use `mock_llm` fixture directly |
 
-## Contributing
-
-```bash
-git clone https://github.com/naveenkumarbaskaran/pytest-agents.git
-cd pytest-agents
-python -m venv .venv && source .venv/bin/activate
-pip install -e ".[dev]"
-pytest
-```
-
 ## License
 
 MIT
