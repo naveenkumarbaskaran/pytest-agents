@@ -3,8 +3,8 @@
 import json
 from pathlib import Path
 
-from pytest_agents.recorder import LLMCassette
 from pytest_agents.mock_llm import LLMResponse, ToolCall
+from pytest_agents.recorder import LLMCassette
 
 
 def test_cassette_record_and_replay(tmp_path: Path):
@@ -12,7 +12,9 @@ def test_cassette_record_and_replay(tmp_path: Path):
 
     # Record
     cassette = LLMCassette(path, mode="record")
-    cassette.record_response(LLMResponse(content="Hello!", model="gpt-4o", tokens={"prompt": 10, "completion": 5}))
+    cassette.record_response(
+        LLMResponse(content="Hello!", model="gpt-4o", tokens={"prompt": 10, "completion": 5})
+    )
     cassette.record_response(LLMResponse(content="Goodbye!", model="gpt-4o"))
     cassette.save()
 

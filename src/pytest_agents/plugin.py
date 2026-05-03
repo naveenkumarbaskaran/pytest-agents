@@ -4,11 +4,10 @@ from __future__ import annotations
 
 import pytest
 
-from pytest_agents.mock_llm import MockLLM
-from pytest_agents.tracer import AgentTracer
-from pytest_agents.tokens import TokenTracker
 from pytest_agents.markers import MARKERS
-
+from pytest_agents.mock_llm import MockLLM
+from pytest_agents.tokens import TokenTracker
+from pytest_agents.tracer import AgentTracer
 
 # ─── Registration ───────────────────────────────────────────────
 

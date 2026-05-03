@@ -2,11 +2,12 @@
 
 from __future__ import annotations
 
+import functools
 import hashlib
 import json
-import functools
+from collections.abc import Callable
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
 # Default snapshot directory
 SNAPSHOT_DIR = Path(".snapshots")

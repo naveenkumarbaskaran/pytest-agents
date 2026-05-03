@@ -1,6 +1,7 @@
 """Tests for AgentTracer."""
 
 import pytest
+
 from pytest_agents.tracer import AgentTracer
 
 
