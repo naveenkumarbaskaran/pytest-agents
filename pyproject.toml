@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pytest-agents"
+name = "pytest-agentkit"
 version = "0.1.0"
 description = "Pytest plugin for testing AI agents — mock LLMs, assert tool calls, track tokens, regression-test prompts."
 readme = "README.md"
