@@ -11,6 +11,16 @@
 pip install pytest-agents
 ```
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="pytest-agents demo — mock LLMs, assert tool calls, track tokens" width="700">
+  <br>
+  <em>Running agent tests: mock LLM responses, assert tool call sequences, catch prompt regressions</em>
+</p>
+
+---
+
 ## Why?
 
 Every team building AI agents needs testing, but there's no standard way to:
